@@ -37,8 +37,7 @@ body{
 
 .bar{
     display: grid;
-    width: 96%;
-    margin: 0 auto;
+    margin: auto;
     block-size: auto;
     grid-template-columns: 14rem auto 23rem;
     background-color: var(--color-secondary);
@@ -47,11 +46,5 @@ body{
 h1{
     font-weight: 800;
     font-size: 1.8rem;
-
-}
-
-main{
-    margin-top: 1.4rem;
-    margin-left: 5rem;
 
 }
