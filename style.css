@@ -10,6 +10,7 @@
 }
 
 * {
+    border: 1px solid red;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -18,6 +19,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 html{
@@ -35,19 +37,26 @@ body{
     color: var(--color-dark);
 }
 
-.bar{
-    display: grid;
-    margin: auto;
-    block-size: auto;
-    grid-template-columns: 23rem auto 14rem;
-    background-color: var(--color-secondary);
+body .bar{
+    background: var(--color-secondary); 
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 18px 10px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 .pages{
     font-size: 1.2rem;
 
 }
-h1{
-    font-weight: 800;
-    font-size: 1.8rem;
 
+body .bar a{
+    font-family: poppins, sans-serif;
+    color: black;
+}
+
+body .bar a:hover{
+    color: var(--color-primary);
 }
