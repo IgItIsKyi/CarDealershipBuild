@@ -54,6 +54,7 @@ body .bar{
 }
 
 body .bar a{
+    margin-left: 30px;
     font-family: poppins, sans-serif;
     color: black;
     word-spacing: normal;
@@ -61,4 +62,7 @@ body .bar a{
 
 body .bar a:hover{
     color: var(--color-primary);
+}
+.sort {
+    margin-left: 30px;
 }
