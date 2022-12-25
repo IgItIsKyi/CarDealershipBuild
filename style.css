@@ -66,3 +66,23 @@ body .bar a:hover{
 .sort {
     margin-left: 30px;
 }
+
+main table tr td img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    margin-top: 30px;
+    margin-right: 75px;
+    margin-left: 30px;
+    height: 320px;
+    width: 320px;
+    
+}
+
+main table tr td p{
+    margin-left: 30px;
+}
+
+footer{
+    margin-top: 400px;
+}
