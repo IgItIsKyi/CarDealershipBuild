@@ -24,6 +24,7 @@
 
 html{
     font-size: 14px;
+    background-color: yellow;
 }
 
 body{
@@ -37,7 +38,7 @@ body{
     color: var(--color-dark);
 }
 
-body .bar{
+body .upper-bar{
     background: var(--color-secondary); 
     box-sizing: border-box;
     overflow: auto;
@@ -53,36 +54,48 @@ body .bar{
 
 }
 
-body .bar a{
+body .upper-bar a{
     margin-left: 30px;
     font-family: poppins, sans-serif;
     color: black;
     word-spacing: normal;
 }
 
-body .bar a:hover{
+body .upper-bar a:hover{
     color: var(--color-primary);
 }
 .sort {
     margin-left: 30px;
 }
 
-main table tr td img{
+body main table tr td img{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     margin-top: 30px;
     margin-right: 75px;
     margin-left: 30px;
     height: 320px;
-    width: 320px;
+    width: 360px;
     
 }
 
 main table tr td p{
     margin-left: 30px;
 }
+main table{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    margin-left: 200px;
+    padding: 30px;
+}
 
+main table tr #gallery{
+    margin-right: 100px;
+    background-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding: 7.5px;
+}
 footer{
     margin-top: 400px;
 }
