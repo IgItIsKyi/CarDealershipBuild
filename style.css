@@ -24,7 +24,7 @@
 
 html{
     font-size: 14px;
-    background-color: yellow;
+    background-color: paleturquoise;
 }
 
 body{
@@ -51,6 +51,7 @@ body .upper-bar{
     width: 100%;
     z-index: 999;
     word-spacing: 9px;
+    opacity: 85%;
 
 }
 .pages{
@@ -66,6 +67,7 @@ body .upper-bar a{
 }
 
 body .upper-bar a:hover{
+    box-shadow: 25%;
     color: var(--color-primary);
 }
 .sort {
@@ -73,11 +75,15 @@ body .upper-bar a:hover{
 }
 
 body main table tr td img{
+    border-style: outset;
+    border-width: 4px;
+    border-color: lightgray;
     display: grid;
     gap: 1.6rem;
     margin-top: 30px;
     margin-right: 75px;
-    margin-left: 30px;
+    margin-left: 75px;
+    margin-bottom: 15px ;
     height: 320px;
     width: 360px;
     
@@ -89,24 +95,31 @@ main table tr td p{
 main table{
     display: flex;
     padding: 30px;
+    margin-left: 70px;
+    justify-content: center;
 }
 
 main table tr #gallery{
-    align-content: center;
-    margin-right: 100px;
-    background-color: black;
     border-width: 4px;
-    border-color: lightgray;
-    border-style: outset;
-    padding: 7.5px;
-    border-radius: 25%;
-    text-align: center;
+    border-spacing: 100px;
+
 }
 
 main table tr #gallery p{
+    margin-top: 2px;
+    margin-right: 70px;
     justify-content: center;
+}
+
+main table tr td{
+    margin-top: 1.5rem;
 }
 
 footer{
     margin-top: 400px;
+}
+
+footer input{
+    outline-style: solid;
+    outline-width: 1px;
 }
