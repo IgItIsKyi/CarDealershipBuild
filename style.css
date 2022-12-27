@@ -67,8 +67,7 @@ body .upper-bar a{
 }
 
 body .upper-bar a:hover{
-    box-shadow: 25%;
-    color: var(--color-primary);
+    box-shadow: 5px 5px 5px 5px;
 }
 .sort {
     margin-left: 30px;
@@ -103,6 +102,10 @@ main table tr #gallery{
     border-width: 4px;
     border-spacing: 100px;
 
+}
+
+main table tr #gallery :hover{
+    box-shadow: 5px 5px 5px 5px;
 }
 
 main table tr #gallery p{
