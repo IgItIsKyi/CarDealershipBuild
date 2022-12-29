@@ -67,8 +67,8 @@ body .upper-bar a{
 }
 
 body .upper-bar a:hover{
-    text-shadow: 5px 5px lightgray;
-    
+    text-shadow:0 0 5px ;
+
 }
 .sort {
     margin-left: 30px;
